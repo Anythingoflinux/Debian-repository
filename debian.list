@@ -1,0 +1,264 @@
+# 	d8888b. d88888b d8888b. d888888b  .d8b.  d8b   db     d8888b. d88888b d8888b.  .d88b.  .d8888. d888888b d888888b  .d88b.  d8888b. db    db 
+# 	88  `8D 88'     88  `8D   `88'   d8' `8b 888o  88     88  `8D 88'     88  `8D .8P  Y8. 88'  YP   `88'   `~~88~~' .8P  Y8. 88  `8D `8b  d8' 
+# 	88   88 88ooooo 88oooY'    88    88ooo88 88V8o 88     88oobY' 88ooooo 88oodD' 88    88 `8bo.      88       88    88    88 88oobY'  `8bd8'  
+# 	88   88 88~~~~~ 88~~~b.    88    88~~~88 88 V8o88     88`8b   88~~~~~ 88~~~   88    88   `Y8b.    88       88    88    88 88`8b      88    
+# 	88  .8D 88.     88   8D   .88.   88   88 88  V888     88 `88. 88.     88      `8b  d8' db   8D   .88.      88    `8b  d8' 88 `88.    88    
+# 	Y8888D' Y88888P Y8888P' Y888888P YP   YP VP   V8P     88   YD Y88888P 88       `Y88P'  `8888Y' Y888888P    YP     `Y88P'  88   YD    YP    
+
+
+# All repository makes with bullseye bookworm sid testing unstable experimental 
+
+#MAIN REPOSITORY
+ 
+#deb
+
+deb http://deb.debian.org/debian bookworm-backports main non-free contrib
+deb http://deb.debian.org/debian bookworm-proposed-updates main non-free contrib
+deb http://deb.debian.org/debian bookworm-updates main non-free contrib
+deb http://deb.debian.org/debian bookworm main non-free contrib
+
+deb http://deb.debian.org/debian bullseye-backports-sloppy main non-free contrib
+deb http://deb.debian.org/debian bullseye-backports main non-free contrib
+deb http://deb.debian.org/debian bullseye-proposed-updates main non-free contrib
+deb http://deb.debian.org/debian bullseye-updates main non-free contrib
+deb http://deb.debian.org/debian bullseye main non-free contrib
+
+deb http://deb.debian.org/debian sid main non-free contrib
+
+deb http://deb.debian.org/debian experimental main non-free contrib
+
+deb http://deb.debian.org/debian testing-backports main non-free contrib
+deb http://deb.debian.org/debian testing-proposed-updates main non-free contrib
+deb http://deb.debian.org/debian testing-updates main non-free contrib
+deb http://deb.debian.org/debian testing main non-free contrib
+
+deb http://deb.debian.org/debian unstable main non-free contrib
+
+
+#deb-src
+
+deb-src http://deb.debian.org/debian bookworm-backports main non-free contrib
+deb-src http://deb.debian.org/debian bookworm-proposed-updates main non-free contrib
+deb-src http://deb.debian.org/debian bookworm-updates main non-free contrib
+deb-src http://deb.debian.org/debian bookworm main non-free contrib
+
+deb-src http://deb.debian.org/debian bullseye-backports-sloppy main non-free contrib
+deb-src http://deb.debian.org/debian bullseye-backports main non-free contrib
+deb-src http://deb.debian.org/debian bullseye-proposed-updates main non-free contrib
+deb-src http://deb.debian.org/debian bullseye-updates main non-free contrib
+deb-src http://deb.debian.org/debian bullseye main non-free contrib
+
+
+deb-src http://deb.debian.org/debian sid main non-free contrib
+
+deb-src http://deb.debian.org/debian experimental main non-free contrib
+
+
+deb-src http://deb.debian.org/debian testing-backports main non-free contrib
+deb-src http://deb.debian.org/debian testing-proposed-updates main non-free contrib
+deb-src http://deb.debian.org/debian testing-updates main non-free contrib
+deb-src http://deb.debian.org/debian testing main non-free contrib
+
+deb-src http://deb.debian.org/debian unstable main non-free contrib
+
+#INCOMMING DEBIAN
+
+#deb
+
+
+deb https://incoming.debian.org/debian-buildd buildd-bookworm-backports main non-free contrib
+deb https://incoming.debian.org/debian-buildd buildd-bookworm-proposed-updates main non-free contrib
+
+deb https://incoming.debian.org/debian-buildd buildd-bullseye-backports-sloppy main non-free contrib
+deb https://incoming.debian.org/debian-buildd buildd-bullseye-backports main non-free contrib
+deb https://incoming.debian.org/debian-buildd buildd-bullseye-proposed-updates main non-free contrib
+
+deb https://incoming.debian.org/debian-buildd buildd-sid main non-free contrib
+
+deb https://incoming.debian.org/debian-buildd buildd-testing-backports main non-free contrib
+deb https://incoming.debian.org/debian-buildd buildd-testing-proposed-updates main non-free contrib
+
+deb https://incoming.debian.org/debian-buildd buildd-unstable main non-free contrib
+
+deb https://incoming.debian.org/debian-buildd buildd-experimental main non-free contrib
+
+#deb-src
+
+deb-src https://incoming.debian.org/debian-buildd buildd-bookworm-backports main non-free contrib
+deb-src https://incoming.debian.org/debian-buildd buildd-bookworm-proposed-updates main non-free contrib
+
+deb-src https://incoming.debian.org/debian-buildd buildd-bullseye-backports-sloppy main non-free contrib
+deb-src https://incoming.debian.org/debian-buildd buildd-bullseye-backports main non-free contrib
+deb-src https://incoming.debian.org/debian-buildd buildd-bullseye-proposed-updates main non-free contrib
+
+deb-src https://incoming.debian.org/debian-buildd buildd-sid main non-free contrib
+
+deb-src https://incoming.debian.org/debian-buildd buildd-testing-backports main non-free contrib
+deb-src https://incoming.debian.org/debian-buildd buildd-testing-proposed-updates main non-free contrib
+
+deb-src https://incoming.debian.org/debian-buildd buildd-unstable main non-free contrib
+
+deb-src https://incoming.debian.org/debian-buildd buildd-experimental main non-free contrib
+
+#DEBIAN-DEBUG
+
+deb http://deb.debian.org/debian-debug bookworm-backports-debug main non-free contrib
+deb http://deb.debian.org/debian-debug bookworm-debug main non-free contrib
+deb http://deb.debian.org/debian-debug bookworm-proposed-updates-debug main non-free contrib
+
+deb http://deb.debian.org/debian-debug bullseye-backports-debug main non-free contrib
+deb http://deb.debian.org/debian-debug bullseye-debug main non-free contrib
+deb http://deb.debian.org/debian-debug bullseye-proposed-updates-debug main non-free contrib
+
+deb http://deb.debian.org/debian-debug experimental-debug main non-free contrib
+
+deb http://deb.debian.org/debian-debug sid-debug main non-free contrib
+
+deb http://deb.debian.org/debian-debug testing-backports-debug main non-free contrib
+deb http://deb.debian.org/debian-debug testing-debug main non-free contrib
+deb http://deb.debian.org/debian-debug testing-proposed-updates-debug main non-free contrib
+
+deb http://deb.debian.org/debian-debug unstable-debug main non-free contrib
+
+#deb-src
+
+deb-src http://deb.debian.org/debian-debug bookworm-backports-debug main non-free contrib
+deb-src http://deb.debian.org/debian-debug bookworm-debug main non-free contrib
+deb-src http://deb.debian.org/debian-debug bookworm-proposed-updates-debug main non-free contrib
+
+deb-src http://deb.debian.org/debian-debug bullseye-backports-debug main non-free contrib
+deb-src http://deb.debian.org/debian-debug bullseye-debug main non-free contrib
+deb-src http://deb.debian.org/debian-debug bullseye-proposed-updates-debug main non-free contrib
+
+deb-src http://deb.debian.org/debian-debug experimental-debug main non-free contrib
+
+deb-src http://deb.debian.org/debian-debug sid-debug main non-free contrib
+
+deb-src http://deb.debian.org/debian-debug testing-backports-debug main non-free contrib
+deb-src http://deb.debian.org/debian-debug testing-debug main non-free contrib
+deb-src http://deb.debian.org/debian-debug testing-proposed-updates-debug main non-free contrib
+
+deb-src http://deb.debian.org/debian-debug unstable-debug main non-free contrib
+
+
+#DEBIAN-SECURITY
+
+#deb
+
+deb http://deb.debian.org/debian-security bookworm-security main non-free contrib
+
+deb http://deb.debian.org/debian-security bullseye-security main non-free contrib
+
+deb http://deb.debian.org/debian-security testing-security main non-free contrib
+
+#deb-src
+
+deb-src http://deb.debian.org/debian-security bookworm-security main non-free contrib
+
+deb-src http://deb.debian.org/debian-security bullseye-security main non-free contrib
+
+deb-src http://deb.debian.org/debian-security testing-security main non-free contrib
+
+#DEBIAN-MULTIMEDIA
+
+
+deb http://www.deb-multimedia.org bullseye main non-free
+deb http://www.deb-multimedia.org bullseye-backports main
+
+deb http://www.deb-multimedia.org bookworm main non-free
+
+deb http://www.deb-multimedia.org sid main non-free
+
+#DEBIAN-SIDUCTION
+
+deb https://packages.siduction.site/extra unstable main
+deb-src https://packages.siduction.site/extra unstable main
+
+deb https://packages.siduction.site/fixes unstable main
+deb-src https://packages.siduction.site/fixes unstable main
+
+
+#DEBIAN-TOR
+
+#deb
+
+deb https://deb.torproject.org/torproject.org bookworm main
+
+deb https://deb.torproject.org/torproject.org bullseye main
+
+deb https://deb.torproject.org/torproject.org sid main
+
+deb https://deb.torproject.org/torproject.org testing main
+
+deb https://deb.torproject.org/torproject.org tor-experimental-bionic main
+deb https://deb.torproject.org/torproject.org tor-experimental-bookworm main
+deb https://deb.torproject.org/torproject.org tor-experimental-bullseye main
+deb https://deb.torproject.org/torproject.org tor-experimental-buster main
+deb https://deb.torproject.org/torproject.org tor-experimental-sid main
+
+deb https://deb.torproject.org/torproject.org unstable main
+   
+
+deb https://deb.torproject.org/torproject.org tor-nightly-main-bookworm main    
+deb https://deb.torproject.org/torproject.org tor-nightly-main-bullseye main            
+deb https://deb.torproject.org/torproject.org tor-nightly-main-sid main           
+
+
+#deb-src
+
+deb-src https://deb.torproject.org/torproject.org bookworm main
+
+deb-src https://deb.torproject.org/torproject.org bullseye main
+
+deb-src https://deb.torproject.org/torproject.org sid main
+
+deb-src https://deb.torproject.org/torproject.org testing main
+
+
+deb-src https://deb.torproject.org/torproject.org tor-experimental-bookworm main
+deb-src https://deb.torproject.org/torproject.org tor-experimental-bullseye main
+deb-src https://deb.torproject.org/torproject.org tor-experimental-buster main
+
+deb-src https://deb.torproject.org/torproject.org unstable main
+
+    
+
+deb-src https://deb.torproject.org/torproject.org tor-nightly-main-bookworm main    
+deb-src https://deb.torproject.org/torproject.org tor-nightly-main-bullseye main            
+deb-src https://deb.torproject.org/torproject.org tor-nightly-main-sid main   
+
+
+#HACKING REPOSITORY
+
+#KALI
+
+deb https://kali.download/kali kali-rolling main non-free contrib
+deb-src https://kali.download/kali kali-rolling main non-free contrib
+
+deb https://kali.download/kali kali-rolling-only main non-free contrib
+deb-src https://kali.download/kali kali-rolling-only main non-free contrib
+
+deb https://kali.download/kali kali-experimental main non-free contrib
+deb-src https://kali.download/kali kali-experimental main non-free contrib
+
+deb https://kali.download/kali kali-bleeding-edge main non-free contrib
+deb-src https://kali.download/kali kali-bleeding-edge main non-free contrib
+
+#PARROT
+               
+deb https://deb.parrot.sh/mirrors/parrot rolling main non-free contrib
+deb-src https://deb.parrot.sh/mirrors/parrot rolling main non-free contrib 
+
+deb https://deb.parrot.sh/mirrors/parrot parrot main non-free contrib
+deb-src https://deb.parrot.sh/mirrors/parrot parrot main non-free contrib               
+                 
+##########################################################################################
+
+#		 d88888b d8b   db d8888b. 
+#                88'     888o  88 88  `8D 
+#                88ooooo 88V8o 88 88   88 
+#                88~~~~~ 88 V8o88 88   88 
+#                88.     88  V888 88  .8D 
+#                Y88888P VP   V8P Y8888D' 
+
+###########################################################################################                         
