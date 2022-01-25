@@ -1,0 +1,15 @@
+Package: *
+Pin: release a=kali-rolling
+Pin-Priority: 50
+
+Package: *
+Pin: release a=kali-rolling-only
+Pin-Priority: 50
+
+Package: *
+Pin: release a=rolling
+Pin-Priority: 50
+
+Package: *
+Pin: release a=parrot
+Pin-Priority: 50
