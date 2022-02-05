@@ -5,8 +5,15 @@
 # 	88  .8D 88.     88   8D   .88.   88   88 88  V888     88 `88. 88.     88      `8b  d8' db   8D   .88.      88    `8b  d8' 88 `88.    88    
 # 	Y8888D' Y88888P Y8888P' Y888888P YP   YP VP   V8P     88   YD Y88888P 88       `Y88P'  `8888Y' Y888888P    YP     `Y88P'  88   YD    YP    
 
+# This repository are not for stable debian its make for unstable testing based debian only
 
 # All repository makes with bullseye bookworm sid testing unstable experimental 
+
+# Incomming based debian repository for unstalbe and sid are commneted for dependency and package avaliabilty issue
+
+# bullseye are also commented for some unnessary places
+
+# parrot repos and kali repos are commented for user purpose
 
 #MAIN REPOSITORY
  
@@ -69,16 +76,16 @@ deb-src http://deb.debian.org/debian unstable main non-free contrib
 deb https://incoming.debian.org/debian-buildd buildd-bookworm-backports main non-free contrib
 deb https://incoming.debian.org/debian-buildd buildd-bookworm-proposed-updates main non-free contrib
 
-deb https://incoming.debian.org/debian-buildd buildd-bullseye-backports-sloppy main non-free contrib
-deb https://incoming.debian.org/debian-buildd buildd-bullseye-backports main non-free contrib
-deb https://incoming.debian.org/debian-buildd buildd-bullseye-proposed-updates main non-free contrib
+#deb https://incoming.debian.org/debian-buildd buildd-bullseye-backports-sloppy main non-free contrib
+#deb https://incoming.debian.org/debian-buildd buildd-bullseye-backports main non-free contrib
+#deb https://incoming.debian.org/debian-buildd buildd-bullseye-proposed-updates main non-free contrib
 
-deb https://incoming.debian.org/debian-buildd buildd-sid main non-free contrib
+#deb https://incoming.debian.org/debian-buildd buildd-sid main non-free contrib
 
 deb https://incoming.debian.org/debian-buildd buildd-testing-backports main non-free contrib
 deb https://incoming.debian.org/debian-buildd buildd-testing-proposed-updates main non-free contrib
 
-deb https://incoming.debian.org/debian-buildd buildd-unstable main non-free contrib
+#deb https://incoming.debian.org/debian-buildd buildd-unstable main non-free contrib
 
 deb https://incoming.debian.org/debian-buildd buildd-experimental main non-free contrib
 
@@ -87,16 +94,16 @@ deb https://incoming.debian.org/debian-buildd buildd-experimental main non-free 
 deb-src https://incoming.debian.org/debian-buildd buildd-bookworm-backports main non-free contrib
 deb-src https://incoming.debian.org/debian-buildd buildd-bookworm-proposed-updates main non-free contrib
 
-deb-src https://incoming.debian.org/debian-buildd buildd-bullseye-backports-sloppy main non-free contrib
-deb-src https://incoming.debian.org/debian-buildd buildd-bullseye-backports main non-free contrib
-deb-src https://incoming.debian.org/debian-buildd buildd-bullseye-proposed-updates main non-free contrib
+#deb-src https://incoming.debian.org/debian-buildd buildd-bullseye-backports-sloppy main non-free contrib
+#deb-src https://incoming.debian.org/debian-buildd buildd-bullseye-backports main non-free contrib
+#deb-src https://incoming.debian.org/debian-buildd buildd-bullseye-proposed-updates main non-free contrib
 
-deb-src https://incoming.debian.org/debian-buildd buildd-sid main non-free contrib
+#deb-src https://incoming.debian.org/debian-buildd buildd-sid main non-free contrib
 
 deb-src https://incoming.debian.org/debian-buildd buildd-testing-backports main non-free contrib
 deb-src https://incoming.debian.org/debian-buildd buildd-testing-proposed-updates main non-free contrib
 
-deb-src https://incoming.debian.org/debian-buildd buildd-unstable main non-free contrib
+#deb-src https://incoming.debian.org/debian-buildd buildd-unstable main non-free contrib
 
 deb-src https://incoming.debian.org/debian-buildd buildd-experimental main non-free contrib
 
@@ -106,9 +113,9 @@ deb http://deb.debian.org/debian-debug bookworm-backports-debug main non-free co
 deb http://deb.debian.org/debian-debug bookworm-debug main non-free contrib
 deb http://deb.debian.org/debian-debug bookworm-proposed-updates-debug main non-free contrib
 
-deb http://deb.debian.org/debian-debug bullseye-backports-debug main non-free contrib
-deb http://deb.debian.org/debian-debug bullseye-debug main non-free contrib
-deb http://deb.debian.org/debian-debug bullseye-proposed-updates-debug main non-free contrib
+#deb http://deb.debian.org/debian-debug bullseye-backports-debug main non-free contrib
+#deb http://deb.debian.org/debian-debug bullseye-debug main non-free contrib
+#deb http://deb.debian.org/debian-debug bullseye-proposed-updates-debug main non-free contrib
 
 deb http://deb.debian.org/debian-debug experimental-debug main non-free contrib
 
@@ -126,9 +133,9 @@ deb-src http://deb.debian.org/debian-debug bookworm-backports-debug main non-fre
 deb-src http://deb.debian.org/debian-debug bookworm-debug main non-free contrib
 deb-src http://deb.debian.org/debian-debug bookworm-proposed-updates-debug main non-free contrib
 
-deb-src http://deb.debian.org/debian-debug bullseye-backports-debug main non-free contrib
-deb-src http://deb.debian.org/debian-debug bullseye-debug main non-free contrib
-deb-src http://deb.debian.org/debian-debug bullseye-proposed-updates-debug main non-free contrib
+#deb-src http://deb.debian.org/debian-debug bullseye-backports-debug main non-free contrib
+#deb-src http://deb.debian.org/debian-debug bullseye-debug main non-free contrib
+#deb-src http://deb.debian.org/debian-debug bullseye-proposed-updates-debug main non-free contrib
 
 deb-src http://deb.debian.org/debian-debug experimental-debug main non-free contrib
 
@@ -232,25 +239,25 @@ deb-src https://deb.torproject.org/torproject.org tor-nightly-main-sid main
 
 #KALI
 
-deb https://kali.download/kali kali-rolling main non-free contrib
-deb-src https://kali.download/kali kali-rolling main non-free contrib
+#deb https://kali.download/kali kali-rolling main non-free contrib
+#deb-src https://kali.download/kali kali-rolling main non-free contrib
 
-deb https://kali.download/kali kali-rolling-only main non-free contrib
-deb-src https://kali.download/kali kali-rolling-only main non-free contrib
+#deb https://kali.download/kali kali-rolling-only main non-free contrib
+#deb-src https://kali.download/kali kali-rolling-only main non-free contrib
 
-deb https://kali.download/kali kali-experimental main non-free contrib
-deb-src https://kali.download/kali kali-experimental main non-free contrib
+#deb https://kali.download/kali kali-experimental main non-free contrib
+#deb-src https://kali.download/kali kali-experimental main non-free contrib
 
-deb https://kali.download/kali kali-bleeding-edge main non-free contrib
-deb-src https://kali.download/kali kali-bleeding-edge main non-free contrib
+#deb https://kali.download/kali kali-bleeding-edge main non-free contrib
+#deb-src https://kali.download/kali kali-bleeding-edge main non-free contrib
 
 #PARROT
                
-deb https://deb.parrot.sh/mirrors/parrot rolling main non-free contrib
-deb-src https://deb.parrot.sh/mirrors/parrot rolling main non-free contrib 
+#deb https://deb.parrot.sh/mirrors/parrot rolling main non-free contrib
+#deb-src https://deb.parrot.sh/mirrors/parrot rolling main non-free contrib 
 
-deb https://deb.parrot.sh/mirrors/parrot parrot main non-free contrib
-deb-src https://deb.parrot.sh/mirrors/parrot parrot main non-free contrib               
+#deb https://deb.parrot.sh/mirrors/parrot parrot main non-free contrib
+#deb-src https://deb.parrot.sh/mirrors/parrot parrot main non-free contrib               
                  
 ##########################################################################################
 
