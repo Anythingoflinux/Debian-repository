@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+polybar --reload -c ~/.i3/polybar/config1.ini & 
+polybar --reload -c ~/.i3/polybar/config2.ini 

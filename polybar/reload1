@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+killall -q polybar &&
+sleep 1
+polybar --reload -c ~/.i3/polybar/config1.ini &
+polybar --reload -c ~/.i3/polybar/config2.ini
